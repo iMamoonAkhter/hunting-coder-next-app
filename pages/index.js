@@ -24,14 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Script src='/sc.js' strategy='lazyOnload'>  </Script> */}
-      <nav className={styles.mainnav}>
-        <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
-        </ul>
-      </nav>
+      
       <main className={styles.main}>
         <h1 className={styles.title}>
           <span className='mySpan dummy'>Hunting Coder</span>
@@ -43,7 +36,7 @@ export default function Home() {
           A blog for hunting coders by a coder
         </p>
         <div>
-          <h2>Popular Blogs</h2>
+          <h2>Latest Blogs</h2>
           <div className="blogItem">
             <h3>How to learn JavaScript in 2022?</h3>
             <p>JS us the language used to design logic for the web</p>
