@@ -1,5 +1,6 @@
 {
     "title": "How to learn JavaScript",
     "content": "JavaScript is a programming language that is used to create interactive effects within web browsers. It is an essential skill for web developers, as it allows them to create dynamic and interactive websites. There are many resources available to help you learn JavaScript, including online tutorials, books, and courses. To learn JavaScript, you should start by learning the basics of the language, such as variables, functions, and loops. Once you have a good understanding of the basics, you can move on to more advanced topics, such as object-oriented programming and asynchronous programming. Practice is key when learning JavaScript, so be sure to work on projects and exercises to reinforce your skills. With dedication and practice, you can become proficient in JavaScript and create amazing websites and web applications.",
-    "author": "Mamoon Akhter"
+    "author": "Mamoon Akhter",
+    "slug": "how-to-learn-javascript"
 }
