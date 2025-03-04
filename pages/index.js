@@ -1,19 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Script from 'next/script'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Script from "next/script";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
-
   return (
     <div className={styles.container}>
       <style jsx>
         {`
-         h2{
-          font-size: 38px;
-         }
-          h3{
+          h2 {
+            font-size: 38px;
+          }
+          h3 {
             font-size: 28px;
           }
         `}
@@ -24,15 +22,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Script src='/sc.js' strategy='lazyOnload'>  </Script> */}
-      
+
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <span className='mySpan dummy'>Hunting Coder</span>
-          
+          <span className="mySpan dummy">Hunting Coder</span>
         </h1>
-<div className={styles.imgwrap}>
-<Image src="/code.jpg" className={styles.myImg} width={237} height={158} />
-</div>        <p className={styles.description}>
+        <div className={styles.imgwrap}>
+          <Image
+            src="/code.jpg"
+            className={styles.myImg}
+            width={237}
+            height={158}
+          />
+        </div>{" "}
+        <p className={styles.description}>
           A blog for hunting coders by a coder
         </p>
         <div>
@@ -47,9 +50,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-       
-      </footer>
+      <footer className={styles.footer}></footer>
     </div>
-  )
+  );
 }

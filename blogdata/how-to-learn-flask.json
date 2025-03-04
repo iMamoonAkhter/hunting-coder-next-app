@@ -1,0 +1,5 @@
+{
+    "title": "How to learn Flask",
+    "content": "Flask is a lightweight web application framework for Python. It is designed to make getting started with web development quick and easy, with the ability to scale up to complex applications. Flask is a popular choice for building web applications, APIs, and microservices, and is used by many companies and developers around the world. To learn Flask, you should start by learning the basics of Python, as Flask is built on top of Python. Once you have a good understanding of Python, you can move on to learning the features and capabilities of Flask, such as routing, templates, and extensions. Practice is key when learning Flask, so be sure to work on projects and exercises to reinforce your skills. With dedication and practice, you can become proficient in Flask and build amazing web applications.",
+    "author": "Mamoon Akhter"
+}
